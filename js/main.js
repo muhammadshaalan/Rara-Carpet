@@ -4,9 +4,8 @@ $(document).ready(function () {
     "use strict";
 //Nice Scroll
     $("body").niceScroll({
-        cursorcolor: "rgba(82, 78, 78, .3)",
         cursorwidth: "10",
-        cursorcolor: "#33D1C5",
+        cursorcolor: "#33D1C5"
     });
 
 //Carousel
@@ -61,7 +60,7 @@ $(document).ready(function () {
         }
     });
     $("#scroll-top").click(function () {
-        $('html body').animate({scrollTop : 0}, 1000);
+        $('html,body').animate({scrollTop : 0}, 1000);
     });
         
 
